@@ -7,5 +7,5 @@
 npm install
 
 ![liquid视图](https://github.com/dingzhenjiangLT/liquid/blob/master/Screenshots/liquid视图.JPG)
-![liquid视图](https://github.com/dingzhnejiangLT/liquid/raw/master/Screenshots/liquid视图2.JPG)
-![liquid视图](https://github.com/dingzhnejiangLT/liquid/raw/master/Screenshots/liquid视图3.JPG)
+![liquid视图](https://github.com/dingzhenjiangLT/liquid/blob/master/Screenshots/liquid视图2.JPG)
+![liquid视图](https://github.com/dingzhenjiangLT/liquid/blob/master/Screenshots/liquid视图3.JPG)
