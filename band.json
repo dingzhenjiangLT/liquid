@@ -1,0 +1,50 @@
+{
+	 "band": [
+	 	{ "title":"飘逝的才是永恒的", "band":"THE ROLLING STONES", "age":"1962 – 当今 (56 年)","AlbumFirst":"《Begger’s Banquet》","AlbumSecond":"《Their Satanic Majesties Request》","AlbumThird":"《Let It Bleed》","backgroundImage":"static/img/RollingStones.png" },
+	 	{"title":"我生命里每一个终端都是一个敞开的门", "band":"THE WHO", "age":"1964 – 当今 (54 年)","AlbumFirst":"《Tommy》","AlbumSecond":"《Who's Next》","AlbumThird":"《Who Are You》","backgroundImage":"static/img/TheWho.png"},
+		{"title":"身影比灵魂还要长", "band":"LED ZEPPELIN", "age":"1968 – 1980 (12 年)","AlbumFirst":"《Led Zeppelin II》","AlbumSecond":"《Houses of the Holy》","AlbumThird":"《The Song Remains The Same》","backgroundImage":"static/img/LedZeppelin.png"},
+		{"title":"他们烧毁了一家赌场", "band":"DEEP PURPLE", "age":"1968 – 当今 (50 年) ","AlbumFirst":"《Loncerto for Group and Orchestra》","AlbumSecond":"《Deep Purple in Rock》","AlbumThird":"《Machine Head》","backgroundImage":"static/img/Deeppurple.png"},
+		{"title":"蓝色欢呼", "band":"BLUE CHEER", "age":"1966 – 2009 (43 年) ","AlbumFirst":"《Vincebus Eruptum》","AlbumSecond":"","AlbumThird":"","backgroundImage":"static/img/bluecheer.png"},
+		{"title":"你在审判日收到公正对待了吗？", "band":"IRON BUTTERFLY ", "age":"1966 – 2012 (46 年) ","AlbumFirst":"《In-A-Gadda-Da-Vida》","AlbumSecond":"《Ball》","AlbumThird":"","backgroundImage":"static/img/IronButterfly.png"}
+       ],
+	 "Heavymetal": [
+	 	{"title":"巫婆，别和我玩那套把戏", "band":"BLACK SABBATH", "age":"1969 – 2017 (48 年)","AlbumFirst":"《Paranoid》","AlbumSecond":"《Master of Reality》","AlbumThird":"","backgroundImage":"static/img/BlackSabbath.png"},
+		{"title":"灵魂沉入河中", "band":"DEF LEPPARD", "age":"1977 – 当今 (41 年)","AlbumFirst":"《Def Leppard》","AlbumSecond":"","AlbumThird":"","backgroundImage":"static/img/DefLeppard.png"},
+		{"title":"红灯，死线", "band":"JUDAS PRIEST", "age":"1969 – 当今 (49 年)","AlbumFirst":"《Sad Wings Of Destiny》","AlbumSecond":"《Point Of Entry》","AlbumThird":"《British Steel》","backgroundImage":"static/img/JudasPriest.png"},
+		{"title":"6-6-6", "band":"IRON MAIDEN", "age":"1976 – 当今 (42 年)","AlbumFirst":"《Number of the Beast》","AlbumSecond":"《Powerslave》","AlbumThird":"《Live After Death》","backgroundImage":"static/img/Ironmaiden.png"},
+		{"title":"改革春风", "band":"SCORPIONS", "age":"1965 – 当今 (53 年)","AlbumFirst":"《Love at First Sting》","AlbumSecond":"《Crazy World》","AlbumThird":"","backgroundImage":"static/img/Scorpions.png"},
+		{"title":"白色狂热", "band":"MOTÖRHEAD", "age":"1975 – 2015 (40 年)","AlbumFirst":"《Overkill》","AlbumSecond":"","AlbumThird":"","backgroundImage":"static/img/MOTÖRHEAD.png"},
+		{"title":"大屠杀", "band":"MEGADETH", "age":"1983 – 当今 (34 年)","AlbumFirst":"《Killing Is My Business...And Business Is Good!》","AlbumSecond":"","AlbumThird":"","backgroundImage":"static/img/Megadeth.png"}
+       ],
+	 "PsychedelicRock": [
+	 	{"title":"别在我的肩膀上哭泣", "band":"THE MOTHERS OF INVENTION", "age":"1964 – 1975 (11 年) ","AlbumFirst":"《Freak Out!》","AlbumSecond":"","AlbumThird":"","backgroundImage":"static/img/TheMothersofInvention.png"},
+		{"title":"打开感知的大门", "band":"THE DOORS", "age":"1965 – 1972 (7 年)","AlbumFirst":"《The Doors》","AlbumSecond":"《Strange Days》","AlbumThird":"","backgroundImage":"static/img/thedoors.png"},
+		{"title":"我们不过是片刻的阳光", "band":"JEFFERSN AIRPLANE", "age":"1965 – 1973 (8 年) ","AlbumFirst":"《Takes Off》","AlbumSecond":"《Surrealistic Pillow》","AlbumThird":"","backgroundImage":"static/img/JeffersonAirplane.png"},
+		{"title":"吉他之神", "band":"JIMI HENDRIX", "age":"1942 – 1970 (27 岁) ","AlbumFirst":"《Are You Experienced》","AlbumSecond":"《Bold As Love》","AlbumThird":"《Electric Ladyland》","backgroundImage":"static/img/JimiHendrix.png"},
+		{"title":"Pink Floyd缔造者", "band":"SYD BARRETT", "age":"1946 – 2006 (60 岁) ","AlbumFirst":"《The Madcap Laughs》","AlbumSecond":"《Barrett》","AlbumThird":"","backgroundImage":"static/img/SydBarrett.png"}
+       ],
+	  "Grunge": [
+	    {"title":"你好，西雅图！", "band":"U-MEN", "age":"1981 – 1988 (7 年)","AlbumFirst":"《U-Men》","AlbumSecond":"","AlbumThird":"","backgroundImage":"static/img/umen.png"},
+		{"title":"从容燃烧", "band":"NIRVANA", "age":"1987  – 1994 (7 年)","AlbumFirst":"《Nevermind》","AlbumSecond":"《In Utero》","AlbumThird":"《Incesticide》","backgroundImage":"static/img/Nirvana.png"},
+		{"title":"珍珠果酱", "band":"PEARL JAM", "age":"1990 – 当今 (28 年)","AlbumFirst":"《Ten》","AlbumSecond":"《VS》","AlbumThird":"《Vitalogy》","backgroundImage":"static/img/PearlJam.png"},
+		{"title":"欢迎来到仙境", "band":"ALICE IN CHAINS", "age":"1987 – 当今 (31 年)","AlbumFirst":"《Facelift》","AlbumSecond":"《Dirt》","AlbumThird":"","backgroundImage":"static/img/AliceinChains.png"},
+		{"title":"滑入黑暗深渊", "band":"SOUNDGARDEN", "age":"1984 – 1997 (13 年)","AlbumFirst":"《Badmotorfinger》","AlbumSecond":"《Ultramega OK》","AlbumThird":"《Superunknown》","backgroundImage":"static/img/Soundgarden.png"}
+       ],
+	  "ProgRock": [
+        {"title":"迷墙", "band":"PINK FLOYD ", "age":"1965 – 2014 (49 年) ","AlbumFirst":"《Dark Side of the Moon》","AlbumSecond":"《The Wall》","AlbumThird":"《Wish You Were Here》","backgroundImage":"static/img/PinkFloyd.png"},
+		{"title":"机器弥赛亚", "band":"YES", "age":"1968 – 1981 (13 年) ","AlbumFirst":"《Drama》","AlbumSecond":"《90125》","AlbumThird":"《Big Generator》","backgroundImage":"static/img/Yes.png"},
+		{"title":"雅各布之梯", "band":"RUSH", "age":"1968 – 2018 (49 年) ","AlbumFirst":"《Moving Pictures》","AlbumSecond":"《2112》","AlbumThird":"《A Farewell to Kings》","backgroundImage":"static/img/Rush.png"},
+		{"title":"没有摇篮曲", "band":"JETHRO TULL", "age":"1967 – 2011 (43 年)","AlbumFirst":"《Heavy Horses》","AlbumSecond":"《Stormwatch》","AlbumThird":"","backgroundImage":"static/img/JethroTull.png"},
+		{"title":"跟紧我", "band":"GENESIS", "age":"1967 – 当今 (51 年) ","AlbumFirst":"《...And Then There Were Three...》","AlbumSecond":"《Duke》","AlbumThird":"","backgroundImage":"static/img/Genesis.png"}
+	  ],
+	  "Punk": [
+        {"title":"朋克基督", "band":"RAMONS", "age":"1974 – 1996 (22 年)","AlbumFirst":"《Ramones》","AlbumSecond":"","AlbumThird":"","backgroundImage":"static/img/Ramons.png"},
+		{"title":"白色暴动", "band":"THE CLASH", "age":"1976 – 1986 (10 年)","AlbumFirst":"《London Calling》","AlbumSecond":"《The Clash》","AlbumThird":"","backgroundImage":"static/img/TheClash.png"},
+		{"title":"别介意胡言乱语这里是性手枪", "band":"SEX PISTOLS", "age":"1975 – 1978 (2 年)","AlbumFirst":"《Never Mind the Bollocks Here's the Sex Pistols》","AlbumSecond":"《God Save the Queen》","AlbumThird":"","backgroundImage":"static/img/SexPistols.png"},
+		{"title":"复杂化", "band":"THE MONKS", "age":"1964 – 1967 (3 年)","AlbumFirst":"《Black Monk Time》","AlbumSecond":"","AlbumThird":"","backgroundImage":"static/img/Monks.png"},
+		{"title":"人性的光辉", "band":"PATTI SMITH", "age":"1946 年 12月 30日 - 当今(71 岁)","AlbumFirst":"《Horses》","AlbumSecond":"《Easter》","AlbumThird":"《Because The Night》","backgroundImage":"static/img/PattiSmith.png"}
+	  ]
+
+
+}  
+  
