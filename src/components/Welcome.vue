@@ -13,19 +13,22 @@
             <h1 class="title" style="opacity: 1;">
                 
                     <div class="line">
-                        <div class="sizer">"Haed Rock"</div>
-                        <div class="display" style="animation:home-line-display-one 0.6s 0.3s backwards;">"Haed Rock"</div>
+                        <div class="sizer">"Well I love your screams of passion"</div>
+                        <div class="display" style="animation:home-line-display-one 0.6s 0.3s backwards;">"Well I love your screams of passion"</div>
                     </div>
                 
                     <div class="line">
-                        <div class="sizer">"Heavy Metal"</div>
-                        <div class="display" style="animation:home-line-display-three 0.9s 0.6s backwards;">"Heavy Metal"</div>
+                        <div class="sizer">"我爱你那充满激情的尖叫"</div>
+                        <div class="display" style="animation:home-line-display-three 0.9s 0.6s backwards;">"我爱你那充满激情的尖叫"</div>
                     </div>
                      <div class="line">
-                        <div class="sizer">"Grung"</div>
-                        <div class="display" style="animation:home-line-display-one 1.2s 0.9s backwards;">"Grung"</div>
+                        <div class="sizer">"In the long hot summer night"</div>
+                        <div class="display" style="animation:home-line-display-one 1.2s 0.9s backwards;">"In the long hot summer night"</div>
                     </div>
-                            
+                     <div class="line">
+                        <div class="sizer">"在这漫长而炎热的夏夜" -- 《Don't Stop》</div>
+                        <div class="display" style="animation:home-line-display-one 1.5s 1.2s backwards;">"在这漫长而炎热的夏夜"  -- 《Don't Stop》</div>
+                    </div>  
             </h1>
 </div>
     </div>
@@ -212,7 +215,7 @@ html, body {
     text-transform: uppercase;
     color: white;
     font-family: gothic,Arial,Helvetica,sans-serif;
-    font-size: 8.5em;
+    font-size: 4.5em;
     line-height: 0.9;
     letter-spacing: 0.1em;
 }
