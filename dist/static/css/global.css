@@ -1,0 +1,171 @@
+#Rock {
+    position: fixed;
+    height: 100%;
+    top: 50px;
+}
+
+
+
+#Rock > div .band {
+    height:  718px;
+    background-color: rgb(34, 34, 34);
+}
+#Rock > div > div {
+    position: absolute;
+    perspective-origin: 200px 80%;
+    perspective: 1500px;
+}
+
+ #Rock > div .band > div:nth-child(1) {
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    transition: background-position 0.3s ease-out , opacity 0.1s ease-out;
+    transform: translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);4
+    height: 100%; opacity: 0.5;  background-size: cover;
+}
+ #Rock > div .band > div {
+    opacity: 1; 
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: 50% 80% 0px;
+
+
+}
+#Rock > div .band > div > div{
+  margin-top: 347px;
+  margin-left: 15px
+}
+ #Rock div.mouse:hover {
+  cursor: pointer;
+}
+ #Rock div.mouse:hover > div:nth-child(1) {
+  background-position: 0px -15px;
+  transition: background-position 0.4s ease-out 0.05s , opacity 0.4s ease-out 0.05s ;
+  opacity: 0.8 !important;
+}
+#Rock > div .band > div:nth-child(2) h1,
+ #Rock > div .band > div:nth-child(2) h2, 
+ #Rock > div .band > div:nth-child(2) h3, 
+ #Rock > div .band > div:nth-child(2) h4, 
+ #Rock > div .band > div:nth-child(2) a {
+    width: 100%;
+    text-shadow: 1px 1px rgba(0,0,0,0.2);
+}
+
+
+
+
+#Rock > div .band > div:nth-child(2) a:hover {
+  text-decoration: underline;
+}
+
+
+#Rock > div .band > div:nth-child(2) h1 {
+    
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    bottom: 0px;
+}
+
+#Rock > div .band > div:nth-child(2) h2 {
+    
+    color: #e74c4c;
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+#Rock > div .band > div:nth-child(2) h4 {
+
+    margin-top: 3px;
+    margin-bottom: 20px;
+ 
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #c7c7c7;
+    color: #777;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+#Rock > div .band > div:nth-child(2) h3, 
+#Rock > div .band > div:nth-child(2) a {
+    color: #fff;
+    font-size: 14px;
+}
+
+
+@keyframes band-image-in {
+  from {
+    opacity: 0;
+    transform: translateZ(0) rotateY(60deg);
+  }
+  to {
+    opacity: 0.5;
+    transform: translateZ(0) rotateY(0);
+  }
+}
+@keyframes band-image-lateload {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+
+@keyframes band-image-out {
+  from {
+    opacity: 0.5;
+    transform: translateZ(0) rotateY(0deg);
+  
+  }
+  to {
+    opacity: 0;
+    transform: translateZ(0) rotateY(20deg);
+
+  }
+}
+
+@keyframes band-label-in {
+  from {
+    opacity: 0;
+    transform: translateZ(0) translateX(-20px);
+
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0) translateX(0px);
+
+  }
+}
+@keyframes band-label-out {
+  from {
+    opacity: 1;
+    transform: translateZ(0) translateX(0px);
+
+  }
+  to {
+    opacity: 0;
+    transform: translateZ(0) translateX(20px);
+
+  }
+}
+.scrollbar {
+    background-color: #000;
+    position: absolute;
+    bottom:42px; 
+    width: 1536px; 
+    height: 15px;
+}
+#Rock > div > div {
+    position: absolute;
+    perspective-origin: 200px 80%;
+    perspective: 1500px;
+}
+.scrollbar div {
+transform-origin:translateX(0px);
+    background-color: #e74c4c;
+    height: 10px;
+}
