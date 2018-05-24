@@ -113,14 +113,14 @@
 </template>
 <script>
 import Vue from 'vue'
-   Vue.directive('roll',//自定义指令                                   
+   Vue.directive('roll',                                
         {
         bind:function (el, binding) {
-                let oDiv = el;   //当前元素
-                let self = this;  //上下文
+                let oDiv = el;  
+                let _this = this;  
                 let clientWidth = document.documentElement.clientWidth
                 oDiv.onmousedown = function (e) {
-                 //鼠标按下，计算当前元素距离可视区的距离
+                
                     let disX = e.clientX - oDiv.offsetLeft;
 
                   
