@@ -113,14 +113,14 @@
 </template>
 <script>
 import Vue from 'vue'
-   Vue.directive('roll',//自定义指令                                   
+   Vue.directive('roll',                                 
         {
         bind:function (el, binding) {
-                let oDiv = el;   //当前元素
-                let self = this;  //上下文
+                let oDiv = el;   
+                let self = this;  
                 let clientWidth = document.documentElement.clientWidth
                 oDiv.onmousedown = function (e) {
-                 //鼠标按下，计算当前元素距离可视区的距离
+               
                     let disX = e.clientX - oDiv.offsetLeft;
 
                   
@@ -183,7 +183,7 @@ import Vue from 'vue'
             }
             },           
        methods:{
-            //接受传来的位置数据，并将数据绑定给data下的val
+           
                 greet(val){
                     var _this = this;
                     var y = val.x *_this.bandlength/4;
