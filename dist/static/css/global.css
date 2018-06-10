@@ -13,15 +13,23 @@
 }
 #Rock > div > div {
     position: absolute;
-    perspective-origin: 200px 80%;
-    perspective: 1500px;
+    -moz-perspective-origin: 200px 80%;
+    -ms-perspective-origin: 200px 80%;
+    -webkit-perspective-origin: 200px 80%;
+    -webkit-perspective: 1500px;
+    -moz-perspective: 1500px;
+    -ms-perspective: 1500px;
 }
 
  #Rock > div .band > div:nth-child(1) {
     background-repeat: no-repeat;
     background-position: 0px 0px;
-    transition: background-position 0.3s ease-out , opacity 0.1s ease-out;
-    transform: translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);4
+   -webkit-transition: background-position 0.3s ease-out , opacity 0.1s ease-out;
+   -moz-transition: background-position 0.3s ease-out , opacity 0.1s ease-out;
+   -ms-transition: background-position 0.3s ease-out , opacity 0.1s ease-out;
+    -webkit-transform: translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    -moz-transform: translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    -ms-transform: translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
     height: 100%; opacity: 0.5;  background-size: cover;
 }
  #Rock > div .band > div {
@@ -43,7 +51,9 @@
 }
  #Rock div.mouse:hover > div:nth-child(1) {
   background-position: 0px -15px;
-  transition: background-position 0.4s ease-out 0.05s , opacity 0.4s ease-out 0.05s ;
+ -webkit-transition: background-position 0.4s ease-out 0.05s , opacity 0.4s ease-out 0.05s ;
+  -moz-transition: background-position 0.4s ease-out 0.05s , opacity 0.4s ease-out 0.05s ;
+  -ms-transition: background-position 0.4s ease-out 0.05s , opacity 0.4s ease-out 0.05s ;
   opacity: 0.8 !important;
 }
 #Rock > div .band > div:nth-child(2) h1,
@@ -168,5 +178,23 @@
 .scrollbar div {
 transform-origin:translateX(0px);
     background-color: #e74c4c;
-    height: 10px;
+    height: 14px;
 }
+
+ @media only screen and (max-width: 800px)  {
+  #Rock {
+    position: fixed;
+    height: 100%;
+    top: 0;
+}
+.scrollbar {
+    background-color: #000;
+    position: absolute;
+    bottom:0px; 
+    height: 14px;
+}
+#Rock > div .band > div > div{
+  margin-top: 347px;
+  margin-left: 15px
+}
+  } 
